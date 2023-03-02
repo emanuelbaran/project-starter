@@ -9,28 +9,66 @@
 
 	<link rel="stylesheet" href="./css/main.css">
 	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
 <body>
 	<!--1. Background image with info regarding the site -->
 	<!-- background image will be put in the main.css file -->
-	<p>Smarters is an interactive news platform, daily viewed by more the 2 million users.</p>
-	<br>
-<p>Founded by a group of students from UCLA, it became more and more popular due to it's fresh approach on </p>
-
-
+	<p> <em>Smarters</em> is an interactive news platform, daily viewed by more the 2 million users.</p>
+	<p>Founded by a group of students from UCLA, it became more and more popular due to it's fresh approach on hot topics,
+		ranging from politics to world records. </p>
 
 	<!-- 2.Logo with the title "Smarters" -->
 
-	<!-- 3.Navigation bar-->
-
-	<!-- 4.Container-->
+	<!-- 3.Navigation bar (topics: News/ Lifestyle/Sport/ Cultural/More ....search tab/ en/account)-->
 
 
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<span>
+				<a class="navbar-brand" href="#">
+					<img src="./assets/logo2.svg" alt="smarters logo" width="50" height="40"
+						class="d-inline-block align-text-top">
+					Smarters
+				</a>
+			</span>
 
-	<!-- 5.Image with responsive design (show the page as it will be viewed on a mobile phone) -->
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container-fluid">
+					<div class="collapse navbar-collapse" id="navbarScroll">
+						<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">News</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Lifestyle</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Sport</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Cultural</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">More</a>
+							</li>
+						</ul>
+						<form class="d-flex" role="search">
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						</form>
+					</div>
+				</div>
+			</nav>
 
-	<!-- 6.Footer -->
+
+			<!-- 4.Container-->
+
+
+
+			<!-- 5.Image with responsive design (show the page as it will be viewed on a mobile phone) -->
+
+			<!-- 6.Footer -->
 
 </body>
 
