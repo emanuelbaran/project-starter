@@ -1,1 +1,3 @@
-/* This is your custom CSS file */
+ul.list {
+	list-style: none;
+}
