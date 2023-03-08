@@ -1,3 +1,69 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	padding: 2px;
+}
+
+* {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+	background-color: #fff;
+	color: rgba(19, 16, 141, 0.918);
+}
+
+.container p {
+	color: black;
+}
+
+.container-headline,
+.container-opinion,
+.container-cultural {
+	margin: 10px;
+	border-top-style: solid;
+	border-top-color: rgba(137, 106, 174, 0.181)
+}
+
+.col-md-4.mt-3, .cultural {
+	border-left-style: inset;
+	border-top-color: rgba(137, 106, 174, 0.181)
+}
+
 ul.list {
 	list-style: none;
 }
+
+.background {
+	max-width: 100%;
+	max-height: 100%;
+	border: double 1px #000;
+	border-radius: 10px;
+}
+
+.background-image {
+	padding-left: 2px;
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap:40px;
+	width: 200px;
+	height: 300px;
+}
+
+body {
+	background-image: url("../assets/background.jpg");
+}
+
+.container.background-image {
+	background-color: #000;
+}
+
+.description-info1, .description-info2 {
+	border: 1px solid rgba(16, 141, 58, 0.918);
+	width:fit-content;
+	padding: 2px;
+}
+
+
